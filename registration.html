@@ -1,52 +1,46 @@
+<DOCTYPE>
 <html>
-    <head>
-        <title>Registration Form</title>
-    </head>
-    <body>
-        <form action="web.php" method="post" enctype="">
-            <fieldset>
-                <legend>Registration Form</legend>
-                <table>
-                    <tr>
-                        <td>username:</td>
-                        <td><input type="text" name="username" value=""></td>
-                    </tr>
-                    <tr>
-                        <td>Date of birth:</td>
-                        <td><input type="date" name="birth" value=""></td>
-                    </tr>
-                    <tr>
-                        <td>Email:</td>
-                        <td><input type="email" name="email" value=""></td>
-                    </tr>
-                    <tr>
-                        <td>Gender:</td>
-                        <td><input type="radio" name="gender" value=""> Male
-                            <input type="radio" name="gender" value=""> Female
-                            <input type="radio" name="gender" value=""> Other
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Dept: </td>
-                        <td>
-                            <select name="dept">
-                                <option value="">CS</option>
-                                <option value="">CIS</option>
-                                <option value="">CSE</option>
-                                <option value="">EEE</option>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Address:</td>
-                        <td><textarea></textarea></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><input type="reset" name="" value="Reset">
-                        <input type="submit" name="" value="Submit"></td>
-                    </tr>
-                </table>
-            </fieldset>
-        </form>
-    </body>
-</html> 
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<form action="regcheck.php" method="post" enctype="">
+<fieldset>
+<legend>Registration Form</legend>
+<table>
+<tr>
+<td>Id</td>
+<td><input type="text" name="Id" value=""></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="Password" value=""></td>
+</tr>
+<tr>
+<td>Confirm password</td>
+<td><input type="password" name="confirm password" value=""></td>
+</tr>
+<tr>
+<tr>
+<td>Name</td>
+<td><input type="text" name="Name" value=""></td>
+</tr>
+<tr>
+<td>User Type</td>
+<td><input type="radio" name="user Type" value=""> User
+<input type="radio" name="user type" value=""> Admin
+</td>
+</tr>
+
+<tr>
+<td><input type="sign up" name="" value="">
+<a href="#">Sing In</a></td>
+
+
+</tr>
+</table>
+</fieldset>
+</form>
+</body>
+</html>
+
